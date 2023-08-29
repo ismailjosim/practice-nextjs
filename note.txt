@@ -1,0 +1,67 @@
+What is the difference between synchronous and asynchronous code execution in JavaScript?
+
+1. Synchronous code execution means that the code is executed without waiting for the previous line to complete, while asynchronous code execution means that the code is executed in sequential order.
+
+2. Synchronous code execution means that the code is executed in a sequential order, while asynchronous code execution means that the code is executed without waiting for the previous line to complete.
+
+3. Synchronous code execution means that the code is executed without any delays, while asynchronous code execution means that the code is delayed before execution.
+
+4. Synchronous code execution means that the code is executed in parallel, while asynchronous code execution means that the code is executed in a single thread.
+
+What is the event loop in JavaScript?
+
+1.A data structure that stores events and their handlers in a queue
+2. A JavaScript engine that executes code in a single thread
+3.A process that allows JavaScript to interact with the DOM
+4.A mechanism that allows asynchronous code to be executed in JavaScript
+
+
+What is the difference between setTimeout and setInterval in JavaScript?
+
+1.setTimeout executes a function once after a specified delay, while setInterval executes a function repeatedly at a specified interval.
+2.setTimeout executes a function repeatedly at a specified interval, while setInterval executes a function once after a specified delay.
+3.setTimeout and setInterval are interchangeable and have the same behavior in JavaScript.
+4.setTimeout and setInterval are used for completely different purposes in JavaScript and cannot be compared.
+
+How do you cancel a setTimeout or setInterval in JavaScript?
+
+1.Use the stop method to cancel the timer
+2.Use the pause method to pause the timer
+3.Use the clearTimeout or clearInterval method to cancel the timer
+4.There is no way to cancel a setTimeout or setInterval once it has been set
+
+What is a Promise in JavaScript?
+1.An IOU for a sandwich from your co-worker who always forgets to bring lunch
+2.A guarantee that your JavaScript code will always work perfectly without any errors
+3. A way to make a solemn vow to never use var again in your code
+4.An object that represents a value that may not be available yet, but will be resolved or rejected in the future
+
+Can you use await outside of an async function?
+1.Yes, you can use await anywhere in your code
+2.No, await can only be used inside an async function
+3.await can be used outside of an async function, but it will not work correctly
+4.It depends on the browser or JavaScript engine being used
+
+What is the event loop in JavaScript?
+1.A loop that runs events in parallel on multiple threads
+2.A loop that runs events sequentially on a single thread
+3.A loop that waits for user input before executing events
+4.A loop that is used to synchronize multiple threads in a multi-threaded environment
+
+What is the main difference between synchronous and asynchronous programming?
+1.Synchronous programming can only run on a single thread, while asynchronous programming can run on multiple threads.
+2.Synchronous programming executes code sequentially, while asynchronous programming does not.
+3.Synchronous programming is faster than asynchronous programming.
+4.Synchronous programming is easier to debug than asynchronous programming.
+
+What is Callback?
+1.The callback is a technique in which a method calls back the caller method.
+2.The callback is an asynchronous equivalent for a function.
+3.Both of the above.
+4.None of the above.
+
+Quiz Checked ✅
+Find some issues:
+1. quiz number 4 (What is the difference between setTimeout and setInterval in JavaScript?) last option missing s work in setTimeout => etTimeout
+2. same question in different quiz has different ans in quiz 3 and 8
+also quiz option is lengthy.
